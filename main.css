@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    margin:  50px auto;
+    font-family: cursive;
+}
+.postcard {
+    background-color: white;
+
+    padding: 1%;
+}
+.header {
+    width: 100%;
+    padding: 1%;
+}
+h1 {
+    width: 310px;
+    float: left;
+    padding: 1%;
+}
+#logo {
+    width: 70px;
+    height: 70px;
+    float: right;
+    padding-right: 5%;
+    padding-top:2%;
+}
+.main{
+    display: inline-block;
+    padding: 1%;
+}
+.description {
+    width: 50%;
+    float: left;
+    padding: 1%;
+}
+.form {
+    width: 40%;
+    float: right;
+    padding: 1%;
+    opacity: 60%;
+}
+.footer {
+    display: flex;
+    padding: 1%;
+}
+
+.form {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-bottom-color: grey;
+    padding: 1%;
+}
+
+.footer button {
+    display: flex;
+    padding: 10px;
+    margin: 20px auto;
+    padding: 1%;
+    font-size: large;
+    cursor:pointer;
+    background-color: rgb(158, 156, 156);
+    
+}
