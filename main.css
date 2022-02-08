@@ -4,27 +4,28 @@ body {
     height: 400px;
     margin:  50px auto;
     font-family: cursive;
+    display:flex;
 }
 .postcard {
     background-color: white;
-
     padding: 1%;
 }
 .header {
     width: 100%;
     padding: 1%;
+    display:flex;
 }
 h1 {
     width: 310px;
-    float: left;
     padding: 1%;
+    flex: 10;
 }
 #logo {
-    width: 70px;
-    height: 70px;
-    float: right;
-    padding-right: 5%;
-    padding-top:2%;
+    width: 40px;
+    height: 40px;
+    padding-right: 10%;
+    padding-top:5%;
+    flex: 1;
 }
 .main{
     display: inline-block;
