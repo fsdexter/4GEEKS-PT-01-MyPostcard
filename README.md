@@ -9,9 +9,12 @@ $ pip3 install flask && python3 server.py
 - The general structure of the document consists:
 
 ```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
+
+Main class is container.
+Container contains 
+
+- header (Title and Logo)
+- main (Content and Inputs)
+- footer (Button for Inserting)
+
 ```
